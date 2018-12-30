@@ -1,0 +1,3 @@
+# L_Point-Competition
+data mining on retail data of Lotte Members
+Still Proceeding ...
