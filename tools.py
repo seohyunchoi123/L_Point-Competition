@@ -1,6 +1,15 @@
 import pandas as pd
 import numpy as np
 
+
+def chk_dist(data, string):
+    print("평균 %s는 %.3f 건, 상위 99%%의 %s는 %d 건이며 최고 %s는 %d 건이다."\
+          %(string, data.mean(), string, data.quantile(0.99), string, data.max()))
+
+
+
+
+
 def reduce_mem_usage(props):
     start_mem_usg = props.memory_usage().sum() / 1024 ** 2
     print("Memory usage of properties dataframe is :", start_mem_usg, " MB")
