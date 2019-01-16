@@ -1,4 +1,4 @@
-# L_Point-Competition
+# 2019 L_Point-Competition
 
 
 주제 : Digital Trend Analyzer
